@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.zj.demo.gdg.dynamic_condition_nfc">
+
+    <dist:module
+        dist:instant="false"
+        dist:title="@string/title_dynamic_condition_nfc">
+        <dist:delivery>
+            <dist:install-time>
+                <dist:conditions>
+                    <dist:device-feature dist:name="android.hardware.nfc" />
+                </dist:conditions>
+            </dist:install-time>
+        </dist:delivery>
+        <dist:fusing dist:include="true" />
+    </dist:module>
+</manifest>

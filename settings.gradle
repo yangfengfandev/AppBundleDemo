@@ -1,0 +1,10 @@
+rootProject.name = "AppBundleDemo"
+include ':app'
+include ':dynamic_install'
+include ':dynamic_demand'
+include ':dynamic_condition_api31'
+include ':dynamic_condition_api30'
+include ':dynamic_condition_api19_29'
+include ':dynamic_condition_camera'
+include ':dynamic_condition_nfc'
+include ':nativelib'

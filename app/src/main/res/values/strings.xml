@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">默认AppBundleDemo</string>
+    <string name="hello_people">Hello GDG!!!</string>
+
+
+    <string name="title_dynamic_install" translatable="false">Module-Install</string>
+    <string name="title_dynamic_demand" translatable="false">Module-OnDemand</string>
+    <string name="title_dynamic_condition_nfc" translatable="false">Module-Condition-NFC</string>
+    <string name="title_dynamic_condition_camera" translatable="false">Module-Condition-Camera</string>
+    <string name="title_dynamic_condition_api19_29" translatable="false">Module-Condition-api19_29</string>
+    <string name="title_dynamic_condition_api30" translatable="false">Module-Condition-api30</string>
+    <string name="title_dynamic_condition_api31" translatable="false">Module-Condition-api31</string>
+    <string name="title_dynamic_condition_country_us" translatable="false">Module-Country-US</string>
+    <string name="title_dynamic_condition_country_other" translatable="false">Module-Condition_Country_Other</string>
+</resources>

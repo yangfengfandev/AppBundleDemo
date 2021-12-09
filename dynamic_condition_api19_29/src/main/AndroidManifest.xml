@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.zj.demo.gdg.dynamic_condition_api19_29">
+
+    <dist:module
+        dist:instant="false"
+        dist:title="@string/title_dynamic_condition_api19_29">
+        <dist:delivery>
+            <dist:install-time>
+                <dist:conditions>
+                    <dist:min-sdk dist:value="19"/>
+                    <dist:max-sdk dist:value="29"/>
+                </dist:conditions>
+            </dist:install-time>
+        </dist:delivery>
+        <dist:fusing dist:include="true" />
+    </dist:module>
+</manifest>

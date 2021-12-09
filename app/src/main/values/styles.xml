@@ -1,0 +1,30 @@
+<resources>
+    <!-- 字体 -->
+    <style name="FontBlack">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">"sans-serif-black"</item>
+        <item name="fontFamily">"sans-serif-black"</item>
+    </style>
+
+    <style name="FontBold">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">"sans-serif"</item>
+        <item name="fontFamily">"sans-serif"</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FontRegular">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">"sans-serif"</item>
+        <item name="fontFamily">"sans-serif"</item>
+    </style>
+
+
+    <style name="BottomDialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+    </style>
+
+
+</resources>
+
